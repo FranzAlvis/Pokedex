@@ -17,8 +17,13 @@ npm i
 npm i -g @nestjs/cli
 ```
 
-4. Levantar la base de datos
+4. Levantar la base de datos docker
 
 ```
 docker-compose up -d
+```
+
+4. Ejecutar el SEED BD
+```
+http://localhost:3000/api/v2/seed
 ```
